@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Alice.unity
     guid: 3844310094d353e4a8cad40009c7c061
+  - enabled: 1
+    path: Assets/Scenes/DinoGR.unity
+    guid: 0d6a703390cd50c47aaa4f0d49aa4ca3
   m_configObjects: {}

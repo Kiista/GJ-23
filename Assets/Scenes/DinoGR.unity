@@ -1849,8 +1849,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.8632698, y: -2.9369142}
-      - {x: -7.370598, y: -2.8697133}
+    - - {x: -0.9030595, y: -3.066231}
+      - {x: -7.3606505, y: -3.0985045}
       - {x: -7.7514935, y: 0.44475555}
       - {x: -7.210949, y: 4.386734}
       - {x: -4.947518, y: 4.579525}
@@ -1876,7 +1876,7 @@ PolygonCollider2D:
       - {x: 61.92934, y: -0.9360528}
       - {x: 61.904495, y: -1.9667614}
       - {x: 59.9772, y: -1.8915424}
-      - {x: 59.837154, y: -2.8716755}
+      - {x: 59.96873, y: -3.0622413}
   m_UseDelaunayMesh: 0
 --- !u!483693784 &459104746
 TilemapRenderer:
@@ -8909,7 +8909,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 28.032305, y: -2.7158108}
+  m_Offset: {x: 28.040741, y: -2.7158108}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8920,7 +8920,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9617577, y: 0.5683787}
+  m_Size: {x: 1.5737553, y: 0.56837845}
   m_EdgeRadius: 0
 --- !u!483693784 &762736607
 TilemapRenderer:

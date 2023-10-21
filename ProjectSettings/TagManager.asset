@@ -8,6 +8,7 @@ TagManager:
   - CameraBarrier
   - Trap
   - Obsticle
+  - Enemy
   layers:
   - Default
   - TransparentFX

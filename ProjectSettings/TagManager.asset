@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - Trap2
   - Dino
+  - AliceTP
   layers:
   - Default
   - TransparentFX

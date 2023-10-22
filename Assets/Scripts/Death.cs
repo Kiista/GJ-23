@@ -38,6 +38,10 @@ public class SceneTransition : MonoBehaviour
         {
             ChangeScene("End");
         }
+        else if (collision.gameObject.CompareTag("AliceTP"))
+        {
+            ChangeScene("Alice");
+        }
     }
 
     private IEnumerator FadeOut()

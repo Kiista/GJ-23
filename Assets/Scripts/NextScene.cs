@@ -5,21 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class NextScene : MonoBehaviour
 {
-    public float changeTime;
     private SceneTransition sceneTransition;
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(DelayedSceneChange());
     }
 
-    // Update is called once per frame
-    void Update()
+   
+
+    IEnumerator DelayedSceneChange()
     {
-        changeTime = Time.deltaTime;
-        if(changeTime <= 0)
-        {
-            sceneTransition.ChangeScene("MAINMENU");
-        }
+        yield return new WaitForSeconds(15f); // Wait for 15 seconds.
+
+        // Change the scene.
+        sceneTransition.ChangeScene("MAINMENU");
     }
 }

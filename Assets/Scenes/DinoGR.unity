@@ -607,7 +607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &103752843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4695,7 +4695,7 @@ GameObject:
   - component: {fileID: 322450183}
   m_Layer: 8
   m_Name: Square (11)
-  m_TagString: Untagged
+  m_TagString: AliceTP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51394,7 +51394,7 @@ GameObject:
   - component: {fileID: 1846208183}
   m_Layer: 8
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: AliceTP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

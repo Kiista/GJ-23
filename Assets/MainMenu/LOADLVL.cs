@@ -7,7 +7,7 @@ public class LOADLVL : MonoBehaviour
 {
     public void playGame()
     {
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void QuitGame()

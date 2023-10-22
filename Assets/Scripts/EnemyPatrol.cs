@@ -26,22 +26,24 @@ public class Enemy : MonoBehaviour
         Vector2 point = currentPoint.position - transform.position;
         if(currentPoint == pointB.transform)
         {
-            flip();
+            
             rb.velocity = new Vector2(speed, 0);
         }
         else
         {
-            flip();
+            
             rb.velocity = new Vector2 (-speed, 0);
         }
 
         if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
         {
             currentPoint = pointA.transform;
+            flip();
         }
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
         {
             currentPoint = pointB.transform;
+            flip();
         }
     }
 

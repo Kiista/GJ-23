@@ -8,6 +8,7 @@ using UnityEngine;
 public class PlayerLide : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private SceneTransition sceneTransition;
 
     private void Start()
     {
@@ -15,9 +16,9 @@ public class PlayerLide : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag("Trap2"))
         {
-            Die();
+            sceneTransition.ChangeScene("End2");
         }
     }
 

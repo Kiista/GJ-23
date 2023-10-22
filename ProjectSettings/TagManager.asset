@@ -9,6 +9,8 @@ TagManager:
   - Trap
   - Obsticle
   - Enemy
+  - Trap2
+  - Dino
   layers:
   - Default
   - TransparentFX

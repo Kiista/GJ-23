@@ -26,6 +26,18 @@ public class SceneTransition : MonoBehaviour
         {
             ChangeScene("DinoGR");
         }
+        else if (collision.gameObject.CompareTag("Trap"))
+        {
+            ChangeScene("DinoGR");
+        }
+        else if (collision.gameObject.CompareTag("Dino"))
+        {
+            ChangeScene("End");
+        }
+        else if (collision.gameObject.CompareTag("Trap2"))
+        {
+            ChangeScene("End");
+        }
     }
 
     private IEnumerator FadeOut()

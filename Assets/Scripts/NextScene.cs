@@ -19,7 +19,7 @@ public class NextScene : MonoBehaviour
         changeTime = Time.deltaTime;
         if(changeTime <= 0)
         {
-            sceneTransition.ChangeScene("MainMenu");
+            sceneTransition.ChangeScene("MAINMENU");
         }
     }
 }

@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class TubeSystem : MonoBehaviour
 {
 
-
+    public SceneTransition sceneTransition;
     public string targetSceneName = "Alice"; // The name of the scene you want to load
 
 
@@ -15,7 +15,7 @@ public class TubeSystem : MonoBehaviour
     {
         if (other.CompareTag("Player")) // Ensure the player object has a "Player" tag
         {
-            SceneManager.LoadScene(targetSceneName);
+            sceneTransition.ChangeScene("Alice");
         }
     }
 }
